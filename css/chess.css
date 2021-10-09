@@ -1,0 +1,125 @@
+hr{
+  border-width: 3px;
+  border-color: red;
+}
+textarea{
+  grid-row:"10";
+  columns:"25";
+}
+a{
+    color: rgb(255, 0, 0)
+}
+#color{
+    text-align: left;
+    color: rgb(7, 71, 87);
+    
+}
+body {
+    background-image: url(https://images.chesscomfiles.com/uploads/v1/theme/101411-0.2d687d92.jpg);
+    font-family: "verdana";
+}
+h1 {
+color: rgb(211, 84, 0);
+border-radius: 24px;
+padding: 13px 20px ;
+
+}
+h2{
+color: rgb(7, 85, 255);
+}
+img{
+  margin-left: 10px;
+  border-radius: 20px;
+  width: 20%;
+}
+p {
+font-family: sans-serif;
+font-size: 20px;
+}
+* {
+box-sizing: border-box;
+}
+ol  {
+    list-style-type: color;
+    color: rgb(0, 4, 252);
+    font-family: "verdana";
+    list-style: square outside;
+  }
+
+/* Style the header */
+.header {
+padding: 10px 20px;
+text-align: left;
+background-image: url("chess-15.jpg");
+}
+
+/* Style the top navigation bar */
+.navMenu {
+overflow: hidden;
+background-color: #333;
+}
+/* Style the navMenu links */
+.navMenu a {
+float: left;
+display: block;
+color: #dfda48;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+/* Change color on hover */
+.navMenu a:hover {
+background-color: rgb(66, 64, 64);
+color: rgb(250, 240, 240);
+}
+/*create a slide bar*/
+.slidebar{
+  text-align: right;
+}
+/* Create three equal columns that float next to each other */
+.column {
+    float: left;
+
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+.footer {
+    text-align: center;
+    padding-inline-end: 0px;
+  }
+
+/* Style block links */
+.block {
+overflow: hidden;
+}
+
+.block a {
+border-radius: 24px;
+float: left;
+display: block;
+color: #0b07cf;
+text-align: center;
+padding: 13px 20px ;
+text-decoration: none;
+}
+
+/* Change color on hover */
+.block a:hover {
+background-color: rgb(65, 64, 64);
+color: rgb(249, 240, 240);
+}
+
