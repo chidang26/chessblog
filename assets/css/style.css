@@ -23,6 +23,7 @@ a
     flex-direction: row;
     max-width: 100%;
     align-items: stretch;
+    position: fixed;
 }
 
 .header__logo
@@ -55,4 +56,62 @@ a
 .header__navbar-item:hover
 {
     color: #4d7427;
+}
+
+.container
+{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.container__main
+{
+    padding: 64px 32px 0 32px;
+    display: flex;
+    flex-direction: column;
+}
+.container__heading
+{
+    display: flex;
+    justify-content: center;
+    margin: 32px 0;
+}
+.container__heading-text
+{
+    font-size: 32px;
+}
+.container__information
+{
+    display: flex;
+}
+.container__information-img
+{
+    width: 100%;
+    margin: 0 16px;
+}
+.container__information-name
+{
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    margin: 16px 0;
+}
+.container__information-detail
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0 16px;
+}
+.container__information-description
+{
+    margin: 16px 0;
+}
+.container__information-third
+{
+    display: flex;
+    margin: 16px 0;
+}
+.container__information-img
+{
+    width: 20%;
 }
