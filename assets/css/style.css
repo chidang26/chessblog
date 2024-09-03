@@ -17,6 +17,7 @@ a
 
 .header
 {
+    width: 100%;
     display: flex;
     background: #333;/*var(__black-color)*/
     color: #fff;
